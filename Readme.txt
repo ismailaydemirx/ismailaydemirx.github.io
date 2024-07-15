@@ -10,10 +10,10 @@ I am a passionate and dedicated Junior Full Stack Developer currently studying s
 
 ## Contact Information
 
-- **Address:** Istanbul, Türkiye
-- **Email:** [ismailaydemiryt@gmail.com](mailto:ismailaydemiryt@gmail.com)
-- **LinkedIn:** [linkedin.com/in/ismailaydemir0](https://www.linkedin.com/in/ismailaydemir0)
-- **GitHub:** [github.com/ismailaydemirx](https://github.com/ismailaydemirx)
+-Address: Istanbul, Türkiye
+-Email: ismailaydemiryt@gmail.com
+-LinkedIn: linkedin.com/in/ismailaydemir0
+-GitHub: github.com/ismailaydemirx
 
 ---
 
