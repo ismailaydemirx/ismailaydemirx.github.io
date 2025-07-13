@@ -1858,3 +1858,167 @@ body.offcanvas .aydemir-nav-toggle {
 .aydemir-footer a:hover {
   opacity: 0.8;
 }
+
+.skill-card:hover {
+	transform: translateY(-5px) !important;
+	box-shadow: 0 5px 25px rgba(0,0,0,0.15) !important;
+}
+.skill-icon i {
+	transition: transform 0.3s ease;
+}
+.skill-card:hover .skill-icon i {
+	transform: scale(1.1);
+}
+.linkedin-post-card:hover {
+	transform: translateY(-8px) !important;
+	box-shadow: 0 8px 30px rgba(0,0,0,0.15) !important;
+}
+.linkedin-post-card:hover .post-overlay {
+	opacity: 1 !important;
+}
+.linkedin-cta a:hover {
+	transform: translateY(-2px) !important;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.2) !important;
+}
+.linkedin-stats {
+	transition: transform 0.3s ease;
+}
+.linkedin-stats:hover {
+	transform: scale(1.02) !important;
+}
+.project-card:hover {
+	transform: translateY(-8px) !important;
+	box-shadow: 0 8px 30px rgba(0,0,0,0.15) !important;
+}
+.project-card:hover .project-overlay {
+	opacity: 1 !important;
+}
+.github-cta a:hover {
+	transform: translateY(-2px) !important;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.2) !important;
+}
+.category-badge {
+	transition: transform 0.3s ease;
+}
+.category-badge:hover {
+	transform: scale(1.05) !important;
+}
+.contact-card:hover {
+	transform: translateY(-8px) !important;
+	box-shadow: 0 8px 30px rgba(0,0,0,0.15) !important;
+}
+.contact-card:hover .contact-icon {
+	transform: scale(1.1) !important;
+}
+.social-icon:hover {
+	transform: translateY(-5px) !important;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3) !important;
+}
+.contact-form-section a:hover {
+	transform: translateY(-2px) !important;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.2) !important;
+}
+.contact-icon {
+	transition: transform 0.3s ease;
+}
+/* Experience Timeline Hover Effects */
+.experience-content:hover {
+	transform: translateY(-8px) !important;
+	box-shadow: 0 8px 30px rgba(0,0,0,0.15) !important;
+}
+.experience-icon {
+	transition: transform 0.3s ease;
+}
+.experience-content:hover .experience-icon {
+	transform: scale(1.1) !important;
+}
+.experience-date {
+	transition: transform 0.3s ease;
+}
+.experience-content:hover .experience-date {
+	transform: scale(1.05) !important;
+}
+/* Timeline Line Animation */
+.timeline-line {
+	animation: timelineFlow 3s ease-in-out infinite;
+}
+@keyframes timelineFlow {
+	0%, 100% { opacity: 0.6; }
+	50% { opacity: 1; }
+}
+@media (max-width: 768px) {
+	.skill-card {
+		margin-bottom: 15px !important;
+	}
+	.linkedin-post-card {
+		margin-bottom: 20px !important;
+	}
+	.project-card {
+		margin-bottom: 20px !important;
+	}
+	.contact-card {
+		margin-bottom: 20px !important;
+	}
+	.social-icons {
+		gap: 15px !important;
+	}
+	/* Mobile Timeline Adjustments */
+	.experience-content {
+		margin-left: 20px !important;
+		margin-right: 20px !important;
+	}
+	.experience-icon {
+		left: -20px !important;
+		right: auto !important;
+		width: 40px !important;
+		height: 40px !important;
+		font-size: 16px !important;
+	}
+	.timeline-line {
+		left: 20px !important;
+	}
+	.experience-title {
+		flex-direction: column !important;
+		align-items: flex-start !important;
+		gap: 10px !important;
+	}
+	.experience-date {
+		align-self: flex-start !important;
+	}
+}
+/* Kompakt timeline için ekstra CSS */
+.timeline-centered .timeline-entry { margin-bottom: 10px !important; }
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
+  width: 40px !important; height: 40px !important; font-size: 18px !important; line-height: 40px !important;
+}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
+  padding: 1.5em !important; margin-left: 60px !important; border-radius: 10px !important; background: #f2f3f7 !important;
+  box-shadow: 0 2px 10px rgba(44,152,240,0.06);
+}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
+  font-size: 18px !important; font-weight: 600 !important; margin-bottom: 8px !important;
+}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
+  font-size: 15px !important; opacity: 0.5 !important; margin-left: 10px;
+}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
+  margin-bottom: 10px !important; font-size: 15px !important;
+}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label ul {
+  margin-bottom: 0 !important; margin-top: 0 !important; font-size: 14px !important;
+}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label ul li {
+  margin-bottom: 4px !important;
+}
+@media (max-width: 768px) {
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
+    margin-left: 50px !important;
+    padding: 1em !important;
+  }
+  .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
+    width: 32px !important; height: 32px !important; font-size: 14px !important; line-height: 32px !important;
+  }
+  .timeline-centered:before {
+    margin-left: 19px !important;
+  }
+}
